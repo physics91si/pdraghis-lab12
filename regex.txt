@@ -3,3 +3,13 @@ Record your regexes in this file.
 Example:
 this regex matches a calendar year (1990, 2001, etc.)
 [12]?[0-9]{3}
+
+email address: ([A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,})
+
+url: [-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
+
+Lastname, Firstname: (.*)[, ](.*)
+
+phone number:\b\d{3}[-.]?\d{3}[-.]?\d{4}\b
+
+date:^(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d$
